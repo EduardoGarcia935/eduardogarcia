@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*, 
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins','Montserrat', sans-serif;
+}
+
+body{
+  font-family: 'Poppins','Montserrat', sans-serif;
+  font-size: 100%;
+  list-style-type: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+:root {
+  --purple: #6600EB;
+  --purple2: #410097;
+  --purple3: #6D00FA;
+  --gradient: linear-gradient(225deg, #410096 0%, #6D00FF 100%);
+
+  --black: #1A1A1A;
+  --black-light: #404040;
+  --black-dark: #151719;
+
+  --white: #FAF8F5;
+  --white-gray: #EEEEEE;
+  --white-dark: #D5D3D0;
+
+  --red: #EB3D3D;
+  --red-light: #F05454;
+  --red-dark: #D03333;
+  --yellow: #FFCE52;
+  --yellow-light: #FFD76B;
+  --yellow-dark: #D9B043;
+}
+
+/* ::-webkit-scrollbar {
+  width: 10px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--black-light);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--purple2);
+  border-radius: 8px;
+  transition: .4s;
+} */
