@@ -1,6 +1,6 @@
 <template>
   <div id="container">
-
+    <LoaderVue/>
     <HomeVue />
     <WorksVue/>
     <AboutVue/>
@@ -10,7 +10,7 @@
 </template>
 
 <script>
-/* import LoaderVue from '@/components/elements/Loader.vue' */
+import LoaderVue from '@/components/elements/Loader.vue'
 import HomeVue from '@/components/views/Home.vue';
 import WorksVue from '@/components/views/Works.vue';
 import AboutVue from '@/components/views/About.vue';
@@ -20,7 +20,7 @@ import SkillsVue from '@/components/views/Skills.vue'
 export default {
   name: 'App',
   components: {
-    /* LoaderVue, */
+    LoaderVue,
     HomeVue,
     WorksVue,
     AboutVue,
