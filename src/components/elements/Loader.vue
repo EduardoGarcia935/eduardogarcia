@@ -26,12 +26,13 @@
       </defs>
     </svg> 
     <p>Eduardo Garcia</p>
+    <div class="box"></div>
   </div>
 </template>
 
 <script>
   export default{
-    name: 'LoadertVue',
+    name: 'LoaderVue',
     components: {},
     data(){
       return {
@@ -73,10 +74,8 @@ p{
 @keyframes endLoader {
   from{
     top: 0;
-    opacity: 1;
   }
   to{
-    opacity: 0;
     top: -2000px;
   }
 }
@@ -111,6 +110,33 @@ p{
     stroke-dashoffset: 0;
     stroke-width: 0;
     opacity: 1;
+  }
+}
+
+.box{
+  width: 100%;
+  height: 500px;
+  background-color: var(--green);
+  position: fixed;
+  bottom: -100%;
+  animation: line 1.7s ease 4100ms forwards, encolher 1.5s ease 4400ms forwards;
+}
+
+@keyframes line {
+  from{
+    bottom: -100%;
+  }
+  to{
+    bottom: 100%;
+  }
+}
+
+@keyframes encolher {
+  from{
+    height: 500px;
+  }
+  to{
+    height: 20px;
   }
 }
 </style>

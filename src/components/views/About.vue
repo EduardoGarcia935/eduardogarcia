@@ -26,7 +26,8 @@
     justify-content: center;
     align-items: center;
 
-    background-color: blue;
+    background-color: gray;
+
     color: white;
   }
 </style>
