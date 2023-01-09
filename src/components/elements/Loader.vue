@@ -53,6 +53,7 @@
   align-items: center;
   flex-direction: column;
   position: fixed;
+  z-index: 1000;
   animation: endLoader 4s ease 4100ms forwards;
 }
 
@@ -119,7 +120,7 @@ p{
   background-color: var(--green);
   position: fixed;
   bottom: -100%;
-  animation: line 1.7s ease 4100ms forwards, encolher 1.5s ease 4400ms forwards;
+  animation: line 1.6s ease 4100ms forwards, encolher 1.5s ease 4400ms forwards;
 }
 
 @keyframes line {
