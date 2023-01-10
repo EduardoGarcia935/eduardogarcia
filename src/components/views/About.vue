@@ -1,6 +1,8 @@
 <template>
   <div id="main_container">
-    <h1>About</h1>
+    <div id="content">
+      <div class="container"></div>
+    </div>
   </div>
 </template>
 
@@ -30,4 +32,18 @@
 
     color: white;
   }
+
+  #content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rosybrown;
+  }
+
+  #content .container{
+    background-color: red;
+    width: 50em;
+
+  }
+
 </style>
